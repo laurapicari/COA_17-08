@@ -1,0 +1,22 @@
+letra = "L"
+
+codigo = ord(letra)
+
+print("Letra:", letra)
+print("Código ASCII:", codigo)
+print("Binário:", "{:08b}".format(codigo,))
+
+print()
+
+texto = "Laura"
+
+for letra in texto:
+    codigo = ord(letra)
+
+    print(
+        letra,
+        "->",
+        codigo,
+        "->",
+        "{:08b}".format(codigo,)
+    )
